@@ -39,6 +39,7 @@ gem 'thor', '0.19.1'
 
 group :development do
   gem 'listen', '~> 3.0.5'
+  gem 'pry-rails'
 end
 
 gem 'tzinfo-data'
@@ -49,3 +50,4 @@ group :development , :test  do
 end 
 
 gem 'bootstrap-sass'
+
