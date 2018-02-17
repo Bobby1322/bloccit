@@ -27,7 +27,6 @@ module Bloccit
 
     config.autoload_paths << File.join(config.root, "lib")
 
-    # Don't generate system test files.
-    config.generators.system_tests = nil
+  
   end
 end
