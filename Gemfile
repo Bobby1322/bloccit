@@ -51,3 +51,6 @@ end
 
 gem 'bootstrap-sass'
 
+# Used for encrypting passwords
+gem 'bcrypt', '~> 3.1.7'
+
