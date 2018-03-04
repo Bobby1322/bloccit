@@ -16,3 +16,19 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.gravatar {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    height: 36px;
+}
+
+.user-info {
+    margin-top: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.profile-signout {
+    margin-top: 1px;
+}
