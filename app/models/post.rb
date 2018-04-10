@@ -32,7 +32,7 @@ class Post < ApplicationRecord
         update_attribute(:rank, new_rank)
     end
 
-    def after_create
+    def create_favorite
         Favorite.create(post: self, user: self.user)
         FavoriteMailer.new_post(self).deliever_now
     end 
