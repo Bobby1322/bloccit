@@ -1,0 +1,5 @@
+You just subscribed to "<%= @post.title %>".
+
+To unsubscribe from future notifications, <%= link_to "click here", topic_post_url(@post.topic, @post) %> and unfavorite this post.
+
+Visit online at: <%= topic_post_url(@post.topic, @post) %>
